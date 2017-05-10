@@ -1,0 +1,16 @@
+.logo-home {
+  font-size: 6em;
+  border-radius: 2px;
+  text-align: center;
+}
+.logo-home div {
+    border: 5px solid #D3E6F0;
+    padding: 30px;
+    display: inline-block;
+}
+
+.logo-home span{
+  margin: 0;
+  padding: 0;
+  color: #D3E6F0;
+}
