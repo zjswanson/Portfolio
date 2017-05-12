@@ -10,16 +10,23 @@
   min-height: 50px;
   border: 1px solid black;
   padding-left: 10px;
+  background-color: #354775;
+  color: #D3E6F0;
 }
 
-body {
-  padding-top: 50px;
+[class *="-nav"] {
+  text-align: center;
+  margin: 2px;
+}
+
+[class *="-nav"]:hover {
+  color: #F6AE2D;
 }
 
 .navbar div {
   flex: 0 0 50px;
   margin: auto;
-  border: 1px solid red;
+
 
 }
 
@@ -30,7 +37,4 @@ body {
     padding-left: 0;
   }
 
-  body {
-    padding-top: 160px;
-  }
 }
