@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   position: absolute;
   top: 0px;
@@ -15,9 +15,6 @@
   box-shadow: 0px 2px 3px grey;
 }
 
-/*.logo-nav div {
-  border: 1px solid #D3E6F0;
-}*/
 
 [class *="-nav"] {
   text-align: center;
@@ -37,9 +34,5 @@
 
 
 @media (min-width: 770px) {
-  .navbar {
-    flex-direction: row;
-    padding-left: 0;
-  }
 
 }

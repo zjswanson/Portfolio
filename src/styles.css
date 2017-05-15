@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files
 Colors
-Dark Blue #354775 svga(53,71,117,1)
-Light blue #D3E6F0 svga(211,230,240,1)
-White blue #EBF3F8 svga(245,243,248,1)
-Saffron #F6AE2D svga(246,174,45,1)
-Dark Green #2B4C31 svga(43,76,49,1)
+Dark Blue #354775 rgba(53,71,117,1)
+Light blue #D3E6F0 rgba(211,230,240,1)
+White blue #EBF3F8 rgba(245,243,248,1)
+Saffron #F6AE2D rgba(246,174,45,1)
+Dark Green #2B4C31 rgba(43,76,49,1)
 
 */
 
@@ -18,7 +18,7 @@ p,ul {
 }
 
 .container {
-  margin-top: 160px;
+  margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -30,8 +30,5 @@ p,ul {
     padding-left: 0;
   }
 
-  .container {
-    margin-top: 60px;
-  }
 
 }

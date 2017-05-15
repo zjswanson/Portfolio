@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files
+Colors
+Dark Blue #354775 rgba(53,71,117,1)
+Light blue #D3E6F0 rgba(211,230,240,1)
+White blue #EBF3F8 rgba(245,243,248,1)
+Saffron #F6AE2D rgba(246,174,45,1)
+Dark Green #2B4C31 rgba(43,76,49,1)
+
+*/
+
+.project-container {
+  background-color: #D3E6F0;
+  padding: 10px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
