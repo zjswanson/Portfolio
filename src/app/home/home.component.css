@@ -3,57 +3,86 @@
 }
 
 .logo-home {
-  font-size: 4em;
   text-align: center;
-  height: 4em;
   background-color: #354775;
   border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+.logo-home h1 {
+  font-size: 4em;
+}
 
-.logo-home div {
+.logo {
   border: 10px solid #D3E6F0;
   padding: 30px;
   display: inline-block;
-  position: relative;
-  top: 25%;
+  line-height: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
-.logo-home span{
-  margin: 0;
-  padding: 0;
+
+.logo span{
   color: #D3E6F0;
 }
 
-.logo-home span:hover{
+.logo span:hover{
   color: #F6AE2D;
 }
 
 .home-nav {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15%;
+  margin-right: 15%;
   align-items: center;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.full-name:hover {
+  color: #F6AE2D;
 }
 
 [class *="-link"] {
   display: flex;
-  border: 1px solid red;
+  color: #D3E6F0;
+  padding: 5px;
+  border: 3px solid #D3E6F0;
+}
+
+[class *="-link"]:hover {
+  color: #F6AE2D;
+  border: 3px solid #F6AE2D;
+}
+
+.about-home {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: #D3E6F0;
+  border-radius: 3px;
+}
+
+.about-home p {
+  padding: 15px;
+  text-align: left;
 }
 
 @media (min-width: 770px) {
-  .navbar {
-    flex-direction: row;
-    padding-left: 0;
-  }
 
   .logo-home {
-    font-size: 6em;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .home-nav {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
 }
