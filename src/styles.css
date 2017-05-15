@@ -1,8 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files
+Colors
+Dark Blue #354775 svga(53,71,117,1)
+Light blue #D3E6F0 svga(211,230,240,1)
+White blue #EBF3F8 svga(245,243,248,1)
+Saffron #F6AE2D svga(246,174,45,1)
+Dark Green #2B4C31 svga(43,76,49,1)
+
+*/
 
 body {
   font-family: 'Merriweather', serif;
-  background-color: #D3E6F0;
+  background-color: #EBF3F8;
 }
 
 p,ul {
@@ -14,7 +22,6 @@ p,ul {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 
 
 @media (min-width: 770px) {
